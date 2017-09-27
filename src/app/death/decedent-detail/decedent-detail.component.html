@@ -1,0 +1,9 @@
+<div *ngIf="decedent">
+<h1>Decedent</h1>
+{{decedent.id}}
+{{decedent.firstName}}
+{{decedent.lastName}}
+<br>
+{{decedent.dateOfBirth | date : 'MMM/dd/yyyy'}}
+
+</div>
